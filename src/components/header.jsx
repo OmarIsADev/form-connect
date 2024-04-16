@@ -4,13 +4,13 @@ export default function Header() {
   return (
     <div className="header">
       <div>
-        <p>Logo</p>
+        {/* <p>Logo</p> */}
         <h1>Form Connect</h1>
       </div>
       <div>
-        <a>Example</a>
-        <a>Features</a>
-        <a>About</a>
+        <a href="#example">Example</a>
+        <a href="#features">Features</a>
+        <a href="#about">About</a>
       </div>
     </div>
   );
