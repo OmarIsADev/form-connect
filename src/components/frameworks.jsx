@@ -35,7 +35,7 @@ export default function Frameworks() {
       <h2>Works with every technology</h2>
       <div>
         {data.map((item) => (
-          <img src={item.img} alt={item.name} />
+          <img key={item.name} src={item.img} alt={item.name} />
         ))}
         <img src={next} alt="nextjs" className="nextjs" />
       </div>

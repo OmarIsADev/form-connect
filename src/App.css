@@ -66,6 +66,10 @@ a {
   color: var(--text);
 }
 
+h2 {
+  margin: 15px 0;
+}
+
 .header {
   display: flex;
   flex-direction: row;
@@ -222,4 +226,41 @@ a {
 .feature p {
   margin: 10px 0;
   color: var(--primary);
+}
+
+#about {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  height: fit-content;
+  justify-content: center;
+  align-items: center;
+}
+
+#about p {
+  color: var(--primary);
+  max-width: 800px;
+  width: 80vw;
+}
+
+.authors {
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  justify-content: center;
+  align-items: start;
+  margin: 20px 0;
+}
+
+.authors h3 {
+  margin: 0 0 10px 0;
+}
+
+.authors p {
+  color: var(--text) !important;
+  margin: 0;
+}
+
+.authors a {
+  text-decoration: underline;
 }
